@@ -1,0 +1,12 @@
+import MyComponent from '../../../../slices/AboutSection';
+
+export default {
+  title: 'slices/AboutSection'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"number":[{"type":"paragraph","text":"Non ullamco tempor reprehenderit reprehenderit sint duis. Proident duis tempor tempor. Nulla non velit nulla ipsum nostrud adipisicing ut laboris deserunt elit dolore non quis irure.","spans":[]}],"title":[{"type":"heading1","text":"Facing","spans":[]}],"slogan":[{"type":"paragraph","text":"Nisi incididunt dolore ea consequat irure consectetur. Quis exercitation sunt exercitation reprehenderit magna dolore id.","spans":[]}],"description":[{"type":"paragraph","text":"Cupidatat magna amet in commodo. Laborum excepteur sit elit qui anim. Quis est cillum nostrud nostrud non.","spans":[]}]},"slice_type":"about_section","id":"_Default"}} />
+_Default.storyName = ''
+
+export const _TitleFirst = () => <MyComponent slice={{"variation":"titleFirst","version":"sktwi1xtmkfgx8626","items":[{}],"primary":{"title":[{"type":"heading1","text":"Exactly","spans":[]}],"number":[{"type":"paragraph","text":"Tempor exercitation proident quis.","spans":[]}],"slogan":[{"type":"paragraph","text":"Veniam nisi mollit ad cupidatat culpa in laborum dolore quis cupidatat sit nulla Lorem incididunt culpa. Voluptate qui ut anim sit culpa.","spans":[]}],"description":[{"type":"paragraph","text":"Id ex commodo ut magna nulla adipisicing. Dolor irure qui nulla Lorem eiusmod minim velit commodo ad laborum Lorem dolor pariatur culpa. Minim officia fugiat nisi elit irure dolore eiusmod amet exercitation qui tempor sunt.","spans":[]}]},"slice_type":"about_section","id":"_TitleFirst"}} />
+_TitleFirst.storyName = ''

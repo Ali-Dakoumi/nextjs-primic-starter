@@ -1,0 +1,46 @@
+{
+  "id": "mock-doc-id",
+  "url": null,
+  "type": "page",
+  "href": null,
+  "tags": [],
+  "first_publication_date": "1970-01-01T00:00:01+0000",
+  "last_publication_date": "1970-01-01T00:00:01+0000",
+  "slugs": [],
+  "linked_documents": [],
+  "lang": "en-us",
+  "alternate_languages": [],
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Et elit proident enim eiusmod aliquip. Dolore aliquip fugiat aute consectetur consectetur dolore commodo Lorem eu et proident aliqua.",
+        "spans": []
+      }
+    ],
+    "slices": [],
+    "meta_title": [
+      {
+        "type": "paragraph",
+        "text": "Minim anim esse id aute cupidatat veniam enim consectetur anim aliqua tempor cupidatat incididunt. Officia quis consectetur elit non. Sunt in consequat consectetur qui et sit qui elit Lorem dolore culpa eiusmod aute pariatur excepteur.",
+        "spans": []
+      }
+    ],
+    "meta_description": [
+      {
+        "type": "paragraph",
+        "text": "Cillum tempor elit magna.",
+        "spans": []
+      }
+    ],
+    "meta_image": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": null,
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51"
+    }
+  }
+}

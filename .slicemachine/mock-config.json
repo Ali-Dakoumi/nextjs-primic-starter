@@ -1,0 +1,41 @@
+{
+  "_cts": {
+    "menu": {},
+    "page": {
+      "meta_title": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      },
+      "meta_description": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
+      }
+    },
+    "dfault_seo": {}
+  },
+  "slices": {
+    "VideoSection": {
+      "default": {
+        "primary": {
+          "slogan": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "AboutSection": {}
+  }
+}
