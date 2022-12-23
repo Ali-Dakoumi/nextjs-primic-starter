@@ -5,6 +5,7 @@
   // the link should be a type of link, and label should be a key text, use the next js Link component and not the Prismic component
 - The second tab will contain the Logo: a simple image with alt text
 - You can add any other type if needed
+- Create a navigation for desktop and mobile, import them in the index js under the navigation folder, style the components with
 
 # Default SEO
 
