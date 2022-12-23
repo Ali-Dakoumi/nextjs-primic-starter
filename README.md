@@ -50,4 +50,3 @@ url: url,
 article: false,
 lang: lang,
 };`
-  //
