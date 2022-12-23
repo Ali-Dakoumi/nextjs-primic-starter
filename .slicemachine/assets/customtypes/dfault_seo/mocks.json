@@ -1,38 +1,49 @@
 {
-  "id": "mock-doc-id",
-  "url": null,
-  "type": "dfault_seo",
-  "href": null,
-  "tags": [],
-  "first_publication_date": "1970-01-01T00:00:01+0000",
-  "last_publication_date": "1970-01-01T00:00:01+0000",
-  "slugs": [],
-  "linked_documents": [],
-  "lang": "en-us",
-  "alternate_languages": [],
-  "data": {
-    "meta_title": [
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "pole"
+  },
+  "meta_title": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
       {
         "type": "paragraph",
-        "text": "Pariatur aute irure eu ullamco proident excepteur non anim irure do pariatur nulla ex. Eiusmod ea sunt dolore id cupidatat minim duis sunt esse laboris.",
-        "spans": []
+        "content": {
+          "text": "Enim id officia adipisicing officia eiusmod commodo id laboris minim ipsum anim anim et officia non."
+        }
       }
-    ],
-    "meta_description": [
+    ]
+  },
+  "meta_description": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
       {
         "type": "paragraph",
-        "text": "In mollit culpa anim dolor aliquip reprehenderit eu voluptate. Irure laboris eu ad.",
-        "spans": []
+        "content": {
+          "text": "Qui id esse nisi aute nostrud est sit minim cillum et quis culpa."
+        }
       }
-    ],
-    "meta_image": {
-      "dimensions": {
-        "width": 900,
-        "height": 500
+    ]
+  },
+  "meta_image": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+      "width": 3168,
+      "height": 4752
+    },
+    "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613",
+    "width": 3168,
+    "height": 4752,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
       },
-      "alt": null,
-      "copyright": null,
-      "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db"
-    }
+      "background": "transparent"
+    },
+    "thumbnails": {}
   }
 }

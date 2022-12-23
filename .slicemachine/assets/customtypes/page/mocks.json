@@ -1,46 +1,174 @@
 {
-  "id": "mock-doc-id",
-  "url": null,
-  "type": "page",
-  "href": null,
-  "tags": [],
-  "first_publication_date": "1970-01-01T00:00:01+0000",
-  "last_publication_date": "1970-01-01T00:00:01+0000",
-  "slugs": [],
-  "linked_documents": [],
-  "lang": "en-us",
-  "alternate_languages": [],
-  "data": {
-    "title": [
+  "uid": {
+    "__TYPE__": "UIDContent",
+    "value": "pair"
+  },
+  "title": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
       {
         "type": "paragraph",
-        "text": "Et elit proident enim eiusmod aliquip. Dolore aliquip fugiat aute consectetur consectetur dolore commodo Lorem eu et proident aliqua.",
-        "spans": []
+        "content": {
+          "text": "In deserunt esse nostrud pariatur nisi incididunt nisi non. Excepteur incididunt Lorem consequat duis commodo tempor commodo. Quis consectetur officia aute reprehenderit amet."
+        }
       }
-    ],
-    "slices": [],
-    "meta_title": [
+    ]
+  },
+  "slices": {
+    "__TYPE__": "SliceContentType",
+    "value": [
       {
-        "type": "paragraph",
-        "text": "Minim anim esse id aute cupidatat veniam enim consectetur anim aliqua tempor cupidatat incididunt. Officia quis consectetur elit non. Sunt in consequat consectetur qui et sit qui elit Lorem dolore culpa eiusmod aute pariatur excepteur.",
-        "spans": []
-      }
-    ],
-    "meta_description": [
-      {
-        "type": "paragraph",
-        "text": "Cillum tempor elit magna.",
-        "spans": []
-      }
-    ],
-    "meta_image": {
-      "dimensions": {
-        "width": 900,
-        "height": 500
+        "key": "video_section$f1223996-d58c-431c-b405-31e4ae00c9dc",
+        "name": "video_section",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "title": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading1",
+                  "content": {
+                    "text": "Musical"
+                  }
+                }
+              ]
+            },
+            "slogan": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Culpa aute consectetur mollit. Sit do elit laborum officia enim exercitation qui ad aliqua labore consequat exercitation dolore esse commodo."
+                  }
+                }
+              ]
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Aliqua pariatur pariatur eiusmod dolore consequat dolore dolor."
+                  }
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
       },
-      "alt": null,
-      "copyright": null,
-      "url": "https://images.unsplash.com/photo-1600861194802-a2b11076bc51"
-    }
+      {
+        "key": "about_section$6dee2662-1c75-4430-934d-4d9f33773f84",
+        "name": "about_section",
+        "widget": {
+          "__TYPE__": "SharedSliceContent",
+          "variation": "default",
+          "primary": {
+            "number": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Dolore officia anim ullamco officia tempor eu aliquip eiusmod ullamco aute dolore voluptate voluptate ea cillum. Laborum sint cupidatat minim dolor in ipsum nisi."
+                  }
+                }
+              ]
+            },
+            "title": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "heading1",
+                  "content": {
+                    "text": "Small"
+                  }
+                }
+              ]
+            },
+            "slogan": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Tempor eiusmod tempor aliqua Lorem aliquip incididunt dolor consequat sunt nisi adipisicing voluptate non ex proident. Excepteur ex nostrud non dolore irure nostrud mollit sunt nisi id dolor exercitation elit. Non sunt et nisi officia incididunt."
+                  }
+                }
+              ]
+            },
+            "description": {
+              "__TYPE__": "StructuredTextContent",
+              "value": [
+                {
+                  "type": "paragraph",
+                  "content": {
+                    "text": "Amet consectetur non ut. Est laborum adipisicing voluptate sunt nisi quis eiusmod culpa exercitation elit Lorem. Duis eiusmod enim nisi adipisicing eiusmod incididunt velit laborum cupidatat cupidatat non excepteur."
+                  }
+                }
+              ]
+            }
+          },
+          "items": [
+            {
+              "__TYPE__": "GroupItemContent",
+              "value": []
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "meta_title": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Est aliqua minim aute officia veniam minim dolor cillum laboris occaecat amet. Occaecat eiusmod veniam anim."
+        }
+      }
+    ]
+  },
+  "meta_description": {
+    "__TYPE__": "StructuredTextContent",
+    "value": [
+      {
+        "type": "paragraph",
+        "content": {
+          "text": "Irure consectetur ut incididunt incididunt deserunt est officia pariatur exercitation anim anim occaecat. Id laboris non velit amet adipisicing exercitation dolor eu."
+        }
+      }
+    ]
+  },
+  "meta_image": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+      "width": 3456,
+      "height": 4320
+    },
+    "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a",
+    "width": 3456,
+    "height": 4320,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
+      },
+      "background": "transparent"
+    },
+    "thumbnails": {}
   }
 }

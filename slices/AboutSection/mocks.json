@@ -1,0 +1,128 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "titleFirst",
+    "primary": {
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Taken"
+            }
+          }
+        ]
+      },
+      "number": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Sunt nisi aliquip consectetur amet ullamco irure excepteur sint commodo. Mollit pariatur ea reprehenderit laborum."
+            }
+          }
+        ]
+      },
+      "slogan": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Eiusmod nulla exercitation aliquip culpa velit ullamco enim pariatur velit. Ullamco amet amet irure."
+            }
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "Occaecat proident dolore cillum fugiat id anim consequat ex nulla."
+            }
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  },
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "number": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "01",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "title": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "heading1",
+            "content": {
+              "text": "Di Proust, madeleine e ricordi",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "slogan": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "La nostra ispirazione",
+              "spans": [
+                {
+                  "type": "strong",
+                  "start": 0,
+                  "end": 21
+                }
+              ]
+            },
+            "direction": "ltr"
+          }
+        ]
+      },
+      "description": {
+        "__TYPE__": "StructuredTextContent",
+        "value": [
+          {
+            "type": "paragraph",
+            "content": {
+              "text": "“Nel momento stesso che quel sorso misto a briciole di focaccia toccò il mio palato, trasalii, attento a quanto avveniva in me di straordinario. Un piacere delizioso m’aveva invaso, isolato, senza nozione della sua causa.\nM’aveva subito resi indifferenti le vicissitudini della vita, le sue calamità, la sua brevità illusoria, nel modo stesso in cui agisce l’amore, colmandomi d’un’essenza preziosa o meglio, quell’essenza non era dentro di me, IO ero quell’essenza”.",
+              "spans": []
+            },
+            "direction": "ltr"
+          }
+        ]
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

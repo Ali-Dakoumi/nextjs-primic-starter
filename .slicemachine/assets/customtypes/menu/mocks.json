@@ -1,33 +1,51 @@
 {
-  "id": "mock-doc-id",
-  "url": null,
-  "type": "menu",
-  "href": null,
-  "tags": [],
-  "first_publication_date": "1970-01-01T00:00:01+0000",
-  "last_publication_date": "1970-01-01T00:00:01+0000",
-  "slugs": [],
-  "linked_documents": [],
-  "lang": "en-us",
-  "alternate_languages": [],
-  "data": {
-    "menu_items": [
+  "menu_items": {
+    "__TYPE__": "GroupContentType",
+    "value": [
       {
-        "label": "anywhere",
-        "link": {
-          "link_type": "Web",
-          "url": "http://google.com"
-        }
+        "__TYPE__": "GroupItemContent",
+        "value": [
+          [
+            "label",
+            {
+              "__TYPE__": "FieldContent",
+              "value": "whispered",
+              "type": "Text"
+            }
+          ],
+          [
+            "link",
+            {
+              "__TYPE__": "LinkContent",
+              "value": {
+                "__TYPE__": "ExternalLink",
+                "url": "http://twitter.com"
+              }
+            }
+          ]
+        ]
       }
-    ],
-    "logo": {
-      "dimensions": {
-        "width": 900,
-        "height": 500
+    ]
+  },
+  "logo": {
+    "__TYPE__": "ImageContent",
+    "origin": {
+      "id": "main",
+      "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+      "width": 3212,
+      "height": 3880
+    },
+    "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6",
+    "width": 3212,
+    "height": 3880,
+    "edit": {
+      "zoom": 1,
+      "crop": {
+        "x": 0,
+        "y": 0
       },
-      "alt": null,
-      "copyright": null,
-      "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72"
-    }
+      "background": "transparent"
+    },
+    "thumbnails": {}
   }
 }
