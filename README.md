@@ -1,27 +1,53 @@
-# Next.js + Tailwind CSS Example
+# Navigation
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+### Create a Navigation custom type
 
-## Deploy your own
+### The main type type will contain a group of fields, and the link and label will placed under this group, so later you can map this group
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+// the link should be a type of link, and label should be a key text, use the next js Link component and not the Prismic component
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+### The second tab will containe the Logo: a simple image with alt text
 
-## How to use
+### You can add any other type if needed
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+# Default SEO
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+### It conatins some default meta tags for the website, [uid, meta_title, meta_description, meta_image]
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+### Probably every single page will have its own seo meta tags, if not you will just give it the default one.
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+# Pages
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+### For best Practices: create a seperate homepage custom type, and a page custom type for all other pages
+
+### The page custom type will just have this fields [uid, title, [...slices]] in the main tab, then create seo tab that will contain this fields [uid, meta_title, meta_description, meta_image]
+
+### add the slices that you need for this custom type
+
+# Slices & Components & Variants
+
+### Create components for custom types and slices that you have created, example Menu, SEO...
+
+### Slices components will have Variants, so create different components under the slice folder and export them in the index file, later in the slices you will map those variants components to deliver the wanted one.
+
+# example of seo code :
+
+//
+Fetch the default seo type
+Fetch the page data
+Then create this variable to make a mx between thel
+const seo = {
+metaTitle:
+data.meta_title.length !== 0
+? prismicH.asText(data.meta_title)
+: prismicH.asText(layout.seo?.data?.meta_title),
+metaDescription:
+data.meta_title.length !== 0
+? prismicH.asText(data.meta_description)
+: prismicH.asText(layout.seo?.data?.meta_description),
+metaImage: data.meta_image.url || layout.seo?.data?.meta_image.url,
+url: url,
+article: false,
+lang: lang,
+};
+//
