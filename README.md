@@ -2,7 +2,7 @@
 
 ### Create a Navigation custom type
 
-### The main type type will contain a group of fields, and the link and label will placed under this group, so later you can map this group
+### The main type will contain a group of fields, and the link and label will placed under this group, so later you can map this group
 
 // the link should be a type of link, and label should be a key text, use the next js Link component and not the Prismic component
 
