@@ -53,5 +53,5 @@ lang: lang,
 
 # For more exapmles and informations
 
-- visit this githube repo made by alex trost
+- visit this github repo made by alex trost
   [a-trost-demo](https://github.com/a-trost/skyward-demo-steam)
