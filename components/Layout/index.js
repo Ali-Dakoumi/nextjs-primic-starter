@@ -1,6 +1,6 @@
 import React from "react";
 import { Seo } from "../SEO";
-import Menu from "../Menu/index";
+import { Menu } from "../Menu";
 
 export const Layout = ({ seo, menu, children }) => (
   <div className="relative">
