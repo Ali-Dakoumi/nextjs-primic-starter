@@ -35,7 +35,8 @@
 1. Fetch the default seo type
 2. Fetch the page data
 3. Then create this variable to make a mix between them
-   `const seo = {
+
+- `const seo = {
 metaTitle:
 data.meta_title.length !== 0
 ? prismicH.asText(data.meta_title)
@@ -49,4 +50,4 @@ url: url,
 article: false,
 lang: lang,
 };`
-   //
+  //
