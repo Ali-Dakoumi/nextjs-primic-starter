@@ -4,8 +4,12 @@ import resolver from "../sm-resolver.js";
 import { Layout } from "../components/Layout/index";
 import { SliceZone } from "@prismicio/react";
 import * as prismicH from "@prismicio/helpers";
+import commerce from "../lib/commerce";
 
-const Home = ({ data, url, lang, layout }) => {
+const Home = ({ data, url, lang, layout, categories, products }) => {
+  console.log("🚀 ~ file: index.jsx:10 ~ Home ~ products", products);
+  console.log("🚀 ~ file: index.jsx:10 ~ Home ~ categories", categories);
+
   const seo = {
     metaTitle:
       data.meta_title.length !== 0
@@ -43,6 +47,10 @@ export const getStaticProps = async ({ previewData }) => {
   const seo = await client.getSingle("dfault_seo");
   const menu = await client.getSingle("menu");
   const page = await client.getByUID("page", "homepage");
+  const { data: categories } = await commerce.categories.list();
+  const { data: products } = await commerce.products.list({
+    category_slug: ["torte"],
+  });
   console.log(menu);
   return {
     props: {
@@ -51,6 +59,8 @@ export const getStaticProps = async ({ previewData }) => {
         menu,
       },
       ...page,
+      categories,
+      products,
     },
   };
 };
